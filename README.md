@@ -10,3 +10,17 @@ bower install
 gulp serve
 ```
 
+## Customize
+
+Put stems in `app/stems`
+
+Configure board in `app/scripts/main.js`
+
+
+## Deployment
+
+```
+gulp
+```
+
+Then upload the `dist` folder to the server of your choosing (AWS S3 + cloudfront works well)
